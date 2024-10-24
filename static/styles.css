@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: content-box
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#animal-image img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 10px;
+}
+
+#file-info {
+    margin-top: 10px;
+}

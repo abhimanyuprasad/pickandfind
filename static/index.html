@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Selector and File Uploader</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Select an Animal</h2>
+            <div>
+                <input type="radio" id="cat" name="animal" value="cat">
+                <label for="cat">Cat</label>
+            </div>
+            <div>
+                <input type="radio" id="dog" name="animal" value="dog">
+                <label for="dog">Dog</label>
+            </div>
+            <div>
+                <input type="radio" id="elephant" name="animal" value="elephant">
+                <label for="elephant">Elephant</label>
+            </div>
+            <div>
+                <input type="radio" id="peacock" name="animal" value="peacock">
+                <label for="peacock">Peacock</label>
+            </div>
+            <div>
+                <input type="radio" id="tiger" name="animal" value="tiger">
+                <label for="tiger">Tiger</label>
+            </div>
+            <div id="animal-image"></div>
+        </div>
+        <div class="box">
+            <h2>Upload a File</h2>
+            <form id="upload-form" enctype="multipart/form-data">
+                <input type="file" id="file-input" name="file">
+                <button type="submit">Upload</button>
+            </form>
+            <div id="file-info"></div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
